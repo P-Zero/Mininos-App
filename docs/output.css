@@ -851,7 +851,7 @@ video {
 @font-face {
   font-family: Neony;
 
-  src: url(../docs/Fonts/NeonRetroDemoVersionRegular-rgPdx.otf);
+  src: url(./Fonts/NeonRetroDemoVersionRegular-rgPdx.otf);
 }
 
 @media (min-width: 768px) {
