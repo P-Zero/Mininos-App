@@ -578,26 +578,6 @@ video {
   height: 100vh;
 }
 
-.h-auto {
-  height: auto;
-}
-
-.h-\[40\%\] {
-  height: 40%;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.max-h-full {
-  max-height: 100%;
-}
-
-.max-h-\[100\%\] {
-  max-height: 100%;
-}
-
 .w-2\/3 {
   width: 66.666667%;
 }

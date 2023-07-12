@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
     font-family: Neony;
-    src: url(../src/Fonts/NeonRetroDemoVersionRegular-rgPdx.otf);
+    src: url(../docs/Fonts/NeonRetroDemoVersionRegular-rgPdx.otf);
 }
 @layer utilities {
     @variants responsive {
