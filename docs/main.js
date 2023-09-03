@@ -67,7 +67,7 @@ async function loadFavouritesMininos(){
   data.forEach(minino => {
     articleContainer.innerHTML += `
     <article class="w-full h-4/10 flex flex-col place-items-center gap-y-5 px-4 md:flex-row md:justify-between lg:flex-col lg:p-0">
-    <img class="w-full h-full object-center object-cover rounded-xl shadow-neon shadow-pink-600 border-2 border-pink-600 md:w-2/3 lg:w-full lg:h-[450px]" src="${minino.image.url}" alt="Tu gatito favorito">
+    <img class="w-full h-full object-center object-cover rounded-xl shadow-neon shadow-pink-600 border-2 border-pink-600 md:w-2/3 lg:w-full lg:h-[450px]" src="${minino.image.url}" loading="lazy" alt="Tu gatito favorito">
     <button class="font-bold shadow-neon shadow-CyanNeon border-2 border-CyanNeon bg-cyan-300 text-cyan-800 rounded-xl py-2 px-4 text-xl md:py-6" id="${minino.id}" onclick="deleteFavouriteMinino(this.id)">Quitar Favorito<button>
     </article>
     `
